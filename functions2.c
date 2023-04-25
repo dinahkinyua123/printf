@@ -41,8 +41,8 @@ int flags, int width, int precision, int size)
 		extra_c = ' ', length++;
 	ind++;
 /*return (write(1, &buffer[i], BUFF_SIZE - i - 1));*/
-	return (write_pointer(buffer, ind, length,)
-				(width, flags, padd, extra_c, padd_start))
+	return (write_pointer(buffer, ind, length,
+				width, flags, padd, extra_c, padd_start));
 }
 
 /************************* PRINT NON PRINTABLE *************************/
